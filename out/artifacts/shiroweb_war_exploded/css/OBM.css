@@ -1,0 +1,120 @@
+/* formTitle */
+.formTitle {
+    height: 45px;
+}
+.formTitle-icon {
+    float: left;
+    height: 100%;
+    width: 17px;
+    margin: 0 8px 0 8px;
+    background: url(../image/form/normal.png) no-repeat center center !important;
+}
+.formTitle-text {
+    height: 100%;
+    float: left;
+    font: bold 14px/45px "宋体";
+    color: #3a3a3a;
+}
+.dzm-noBorder-text{
+    height: 23px;
+    width: 151px;
+    font-size: 12px;
+    line-height: 23px;
+    border: 1px solid #CCCCCC !important;
+}
+.form-label-cell{
+    width: 70px;
+}
+
+.logo {
+    height: 80px;
+    text-align: left;
+    padding: 20px 0 0 25px;
+    zoom: 1;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+.header {
+    background: #04564a;
+    overflow: hidden;
+}
+.nav {
+    background: #04564a url(../image/nav.jpg) repeat-x;
+    height: 35px;
+    border-left: 1px solid #58957f;
+    border-right: 1px solid #58957f;
+}
+
+.wraper {
+    background: #fff;
+    width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.mininav {
+    padding: 45px 30px 0 0;
+    float: right;
+}
+.mininav li {
+    background: url(../image/minili.gif) no-repeat;
+    width: 56px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+.mininav li.last {
+    width: 55px;
+    overflow: hidden;
+}
+.mininav li a, .mininav li a:link, .mininav li a:visited {
+    margin-top: 50px;
+    color: #fff;
+}
+.user-ico {
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.u-ico {
+    display: block;
+    width: 30px;
+    height: 40px;
+    background-image: url(../image/nav-icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 -397px;
+}
+
+.panel-header, .panel-body {
+    border-color: #158415;
+}
+
+.panel-header {
+    background-color: #c8e1e0;
+    background: -webkit-linear-gradient(top,#c8e1e0 0,#c8e1e0 100%);
+    background: -moz-linear-gradient(top,#c8e1e0 0,#c8e1e0 100%);
+    background: -o-linear-gradient(top,#c8e1e0 0,#c8e1e0 100%);
+    background: linear-gradient(to bottom,#c8e1e0 0,#c8e1e0 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8e1e0,endColorstr=#c8e1e0,GradientType=0);
+}
+
+.window {
+    background-color: #c8e1e0;
+    background: -webkit-linear-gradient(top,#c8e1e0 0,#c8e1e0 20%);
+    background: -moz-linear-gradient(top,#c8e1e0 0,#c8e1e0 20%);
+    background: -o-linear-gradient(top,#c8e1e0 0,#c8e1e0 20%);
+    background: linear-gradient(to bottom,#c8e1e0 0,#c8e1e0 20%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8e1e0,endColorstr=#c8e1e0,GradientType=0);
+}
+
+.window, .window .window-body {
+    border-color: #158415;
+}
+
+.textbox {
+    border-color: #158415;
+}
